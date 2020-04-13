@@ -1,6 +1,3 @@
-# How_to_make_a_text_summarizer
-This is the code for "How to Make a Text Summarizer - Intro to Deep Learning .
-
 ## Dependencies
 
 * [Tensorflow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html) or [Theano](http://deeplearning.net/software/theano/install.html)
@@ -12,9 +9,6 @@ Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies.
 ## Basic Usage
 
 ### Data
-The video example is made from the text at the start of the article, which I call description (or `desc`),
-and the text of the original headline (or `head`). The texts should be already tokenized and the tokens separated by spaces.
-[This](http://research.signalmedia.co/newsir16/signal-dataset.html) is a good example dataset. You can use the 'content' as the 'desc' and the 'title' as the 'head'. 
 
 Once you have the data ready save it in a python pickle file as a tuple:
 `(heads, descs, keywords)` were `heads` is a list of all the head strings,
