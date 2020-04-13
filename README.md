@@ -45,6 +45,3 @@ Good (cherry-picked) examples of headlines generated:
 
 ## Examples of attention weights
 ![attention weights](./attention_weights.png)
-
-## Credits
-The credit for this code goes to [udibr](https://github.com/udibr) i've merely created a wrapper to make it easier to get started. 
